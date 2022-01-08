@@ -16,9 +16,9 @@
 
 .TAGS sitecore powershell local install iis solr
 
-.LICENSEURI https://github.com/SitecoreDave/SharedSitecore.SitecoreLocal/blob/main/LICENSE
+.LICENSEURI https://github.com/Radical-Dave/Get-SqlDataSet/blob/main/LICENSE
 
-.PROJECTURI https://github.com/SitecoreDave/SharedSitecore.SitecoreLocal
+.PROJECTURI https://github.com/Radical-Dave/Get-SqlDataSet
 
 .ICONURI
 
