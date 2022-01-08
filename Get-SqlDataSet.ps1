@@ -4,7 +4,7 @@
 #####################################################
 <#PSScriptInfo
 
-.VERSION 0.1
+.VERSION 0.2
 
 .GUID 602bc07e-a621-4738-8c27-0edf4a4cea8e
 
@@ -93,9 +93,11 @@ process {
 		}
 	}
 	finally {
-		$null = $conn.Close();
-		$null = $conn.Dispose();
-		$null = $da.Dispose()
+		if ($conn) {
+			$null = $conn.Close();
+			$null = $conn.Dispose();
+		}
+		if ($da) {$null = $da.Dispose()}
 	}	
 }
 end {
